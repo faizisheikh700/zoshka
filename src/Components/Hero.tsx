@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,13 +6,21 @@ export default function Hero() {
     <div className="relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image
+
+      <Image
+      src={"/b2.jpg"}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+      className="w-full"
+    />
+        {/* <Image
           src="/b2.jpg"
           alt="Hero background"
           layout="fill"
           objectFit="cover"
           priority
-        />
+        /> */}
       </div>
 
       {/* Foreground Content */}
