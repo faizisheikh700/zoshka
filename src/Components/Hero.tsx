@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import hero from '@/public/about.png'
 export default function Hero() {
   return (
     <div className="relative overflow-hidden">
@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
 
       <Image
-      src={"/b2.jpg"}
+      src={hero}
       width={500}
       height={500}
       alt="Picture of the author"
